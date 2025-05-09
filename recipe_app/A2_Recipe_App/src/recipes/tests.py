@@ -1,4 +1,5 @@
 from django.test import TestCase
+from django.urls import reverse
 from .models import Recipe
 
 class RecipeModelTest(TestCase):
@@ -59,4 +60,13 @@ class RecipeModelTest(TestCase):
         recipe = Recipe.objects.get(id=1)
 
         # Compares value to expected result
-        self.assertEqual(recipe.calc_difficulty(), 'Easy')
+        self.assertEqual(recipe.difficulty, 'Easy')
+
+        # ------------------------- URL ------------------------- #
+    # Defines test for getting the absolute URL of a recipe object
+    def test_get_absolute_url(self):
+        # Gets a recipe object to test
+        recipe = Recipe.objects.get(id=1)
+
+        # Compares value to expected result
+        self.assertEqual(recipe.get_absolute_url(), "/collection/1")

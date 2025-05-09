@@ -1,9 +1,20 @@
 <!DOCTYPE html>
-<html>
-    <title>
-        Recipe App
-    </title>
+{% load static %}
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recipes - Home</title>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="{% static 'recipes/css/home.css' %}" rel="stylesheet">
+    </head>
+
     <body>
-        <h1 style="text-align: center;">Welcome to our Bookstore</h1>
+        <div class="container">
+            <h1>Recipes</h1>
+
+            <p>Search for Recipes OR Add Your Recipe</p>
+        </div>
     </body>
 </html>
