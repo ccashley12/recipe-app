@@ -1,6 +1,10 @@
 body {
     font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     background-color: #fff9e8;
+    border: thick double #396125;
+    border-width: 90%;
     margin: 0;
     padding: 0;
     display: flex;
@@ -13,6 +17,7 @@ h1 {
     color: #396125;
     font-size: 3em;
     text-align: center;
+    width: auto;
 }
 
 .container {
@@ -30,4 +35,8 @@ h1 {
 .container p {
     text-align: center;
     color: #396125;
+}
+
+.container a {
+    align-items: center;
 }

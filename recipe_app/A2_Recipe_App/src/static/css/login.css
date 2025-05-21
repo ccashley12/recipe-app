@@ -1,15 +1,11 @@
 body {
-    font-family: "Playwrite DE Grund", Arial, sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url("../images/home_background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 h1 {

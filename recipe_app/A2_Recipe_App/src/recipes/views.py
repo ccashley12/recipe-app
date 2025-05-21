@@ -14,6 +14,10 @@ from .utils import get_chart
 def home(request):
     return render(request, "recipes/recipes_home.html")
 
+# FBV "about"
+def about(request):
+    return render(request, "recipes/about.html")
+
 # CBV "RecipeList", protected
 class RecipeListView(LoginRequiredMixin, ListView):
     model = Recipe

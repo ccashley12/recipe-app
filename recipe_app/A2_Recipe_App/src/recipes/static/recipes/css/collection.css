@@ -1,17 +1,16 @@
 body {
-    font-family: "Playwrite DE Grund", Arial, sans-serif;
-    background-image: url("../images/collection_background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #396125;
+    background-color: #fff9e8;
     margin: 0;
     padding: 0;
 }
 
 .recipes-header {
     position: absolute;
-    background-color: #ddd;
+    background-color: #fff9e8;
     width: 100%;
     margin-top: 62px;
     padding: 10px;
@@ -20,12 +19,12 @@ body {
 }
 
 .recipe-name {
-    color: blueviolet;
+    color: #396125;
     text-decoration: none;
 }
 
 .recipe-name:hover {
-    text-decoration: underline;
+    text-decoration: wavy;
 }
 
 .recipe-name:visited {
@@ -36,8 +35,9 @@ body {
 table {
     width: 80%;
     margin: 20px auto;
-    border-collapse: collapse;
-    background-color: rgba(255, 255, 255, 0.85);
+    border: solid 2px #396125;
+    border-radius: 8px;
+    background-color: #fff9e8;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -48,7 +48,7 @@ table td, table th {
 }
 
 table tr:hover {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #fff;
 }
 
 /* Ensures images maintain aspect ratio while having the same dimensions */
